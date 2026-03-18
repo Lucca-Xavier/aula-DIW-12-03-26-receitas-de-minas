@@ -1,0 +1,31 @@
+#banner{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+ol{
+    padding: 0;
+}
+
+#page-container{
+    width: 50%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+#content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
